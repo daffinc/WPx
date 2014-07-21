@@ -1,0 +1,48 @@
+/* RESPONSIVE GRIDS -------------------------------------------------------------- */
+// based on the Susy grid system
+
+// mobile vertical (iphone)
+// small screen devices, like phones, held in portrait mode
+
+@media screen and (max-width: 320px) {
+
+}
+
+// mobile horizontal (iphone)
+// small screen devices, like phones, held in landscape mode
+    @media screen and (min-width: 321px) and (max-width: 480px) {
+
+}
+
+// smaller tablets
+// like Amazon Kindle (600x800) and Barnes & Noble Nook (768x1024)
+// held in portrait mode
+    @media screen and (min-width: 481px) and (max-width: 600px) {
+
+}
+
+// tablets
+// Ten-inch tables like the iPad (1024x768) held in portrait mode
+    @media screen and (min-width: 601px) and (max-width: 768px) {
+
+}
+
+
+// tablets, laptops, desktops
+// Tablets like the iPad (1024x768) held in landscape mode,
+// as well as certain laptop, netbook, and desktop displays
+// (commented out, since it's the default context)
+    @media screen and (min-width: 769px) and (max-width: 1200px) {
+
+
+}
+
+
+
+// wide screen
+// primarily laptop and desktop browsers
+    @media screen and (min-width: 1440px) {
+
+}
+
+

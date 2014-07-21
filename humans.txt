@@ -1,0 +1,22 @@
+/* humanstxt.org */
+
+
+/* TEAM */
+    Lab: Dreams Engineering.
+    Site: dreamsengineering.com
+    Email: lab [at] dreamsengineering.com
+    Twitter: @DreamsEngine
+    Location: Mexico City, Mexico.
+
+/* THANKS */
+    HTML5BoilerPlate Team, for make our life easier.
+    Wordpress Team.
+
+
+/* SITE */
+    Last Update: 28.Jul.2013
+    Languages: Español,English,Deutsch,French
+    Standards: HTML5, CSS3
+    NotSoStandard: SCSS, CoffeeScript
+    Components: Modernizr, jQuery, Wordpress
+    Software: SublimeText2,Chrome,CodeKit,Photoshop
