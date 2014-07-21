@@ -76,6 +76,7 @@ Thumbs.db
 
 # SublimeText files #
 ######################
+a-sftp-config.json
 sftp-config.json
 *.sass-cache
 *.sublime-project
