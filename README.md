@@ -9,9 +9,9 @@
 * [Gulp.js](http://gulpjs.com/)
 * [SCSS](http://sass-lang.com/)&amp; more
 
-*The theme need this dependencies (remember ´sudo´ if you have not root privilages:
+###The theme need this dependencies (remember `sudo` if you have not root privilages:
 
-´
+`
   npm install gulp gulp-util --save-dev
   npm install gulp-ruby-sass --save-dev
   npm install gulp-autoprefixer --save-dev
@@ -27,10 +27,10 @@
   npm install gulp-cache --save-dev
   npm install gulp-plumber --save-dev
   npm install gulp-livereload --save-dev
-´
-*And the dependencie package.json
+`
+###And the dependencie package.json
 
-´
+`
 "devDependencies": {
     "gulp": "^3.8.6",
     "gulp-autoprefixer": "0.0.8",
@@ -49,4 +49,4 @@
     "gulp-util": "^3.0.0"
   }
 
-´
+`
