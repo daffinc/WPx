@@ -27,11 +27,11 @@
   npm install gulp-cache --save-dev
   npm install gulp-plumber --save-dev
   npm install gulp-livereload --save-dev
-```
+
 ###And the dependencie package.json
 
 
-```"devDependencies": {
+  "devDependencies": {
     "gulp": "^3.8.6",
     "gulp-autoprefixer": "0.0.8",
     "gulp-cache": "^0.2.0",
@@ -47,7 +47,10 @@
     "gulp-ruby-sass": "^0.7.0",
     "gulp-uglify": "^0.3.1",
     "gulp-util": "^3.0.0"
-  }  ```
+  }
+```
+
+
 
 
 
