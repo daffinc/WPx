@@ -9,7 +9,7 @@
 * [Gulp.js](http://gulpjs.com/)
 * [SCSS](http://sass-lang.com/)&amp; more
 
-###The theme need this dependencies (remember `sudo` if you have not root privilages:
+###The theme need this dependencies (remember `sudo` if you have not root privilages):
 
 ```
   npm install gulp gulp-util --save-dev
@@ -49,5 +49,6 @@
     "gulp-util": "^3.0.0"
   }
   ```
+
 
 
