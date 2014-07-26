@@ -12,23 +12,9 @@
 ###The theme need this dependencies (remember `sudo` if you have not root privilages):
 
 ```
-  npm install gulp gulp-util --save-dev
-  npm install gulp-ruby-sass --save-dev
-  npm install gulp-autoprefixer --save-dev
-  nano gulp-minify-css --save-dev
-  npm install gulp-minify-css --save-dev
-  npm install gulp-jshint --save-dev
-  npm install gulp-uglify --save-dev
-  npm install gulp-imagemin --save-dev
-  npm install gulp-rename --save-dev
-  npm install gulp-rimraf --save-dev
-  npm install gulp-concat --save-dev
-  npm install gulp-notify --save-dev
-  npm install gulp-cache --save-dev
-  npm install gulp-plumber --save-dev
-  npm install gulp-livereload --save-dev
+  npm install gulp gulp-util gulp-ruby-sass gulp-autoprefixer gulp-minify-css gulp-jshint gulp-uglify gulp-imagemin gulp-rename gulp-rimraf gulp-concat gulp-notify gulp-cache gulp-plumber gulp-livereload --save-dev
 
-###And the dependencie package.json
+#And the dependencie package.json
 
 
   "devDependencies": {
