@@ -12,9 +12,9 @@ ___
 * [rilwis/meta-box](https://github.com/rilwis/meta-box)
 ___
 ####After Clone
-___
 
 Clone lates version of
+
 * [valendesigns/option-tree](https://github.com/valendesigns/option-tree)
 * [rilwis/meta-box](https://github.com/rilwis/meta-box)
 
