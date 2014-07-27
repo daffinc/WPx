@@ -77,7 +77,7 @@ Options Tree
 ========================================================================== */
 
 //Declare Options Themes
-load_template( trailingslashit( get_template_directory() ) . '/inc/plugins/option-tree/ot-loader.php' );
+load_template( trailingslashit( get_template_directory() ) . 'inc/plugins/option-tree/ot-loader.php' );
 
 function libraryVer($name,$cdn,$bolean){
   global $themename, $prefix;

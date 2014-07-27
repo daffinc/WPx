@@ -1,23 +1,40 @@
 #WPx
-### ======
 
+___
 ###Wordpress Experimental Start Template based in
 
 
 * [H5BP](https://github.com/h5bp/html5-boilerplate)
 * [Bones](https://github.com/eddiemachado/bones)
 * [Gulp.js](http://gulpjs.com/)
-* [SCSS](http://sass-lang.com/) & more
+* [SCSS](http://sass-lang.com/)
+* [valendesigns/option-tree](https://github.com/valendesigns/option-tree)
+* [rilwis/meta-box](https://github.com/rilwis/meta-box)
+___
+####After Clone
+___
 
-###The theme need this dependencies (remember `sudo` if you have not root privilages):
+Clone lates version of
+* [valendesigns/option-tree](https://github.com/valendesigns/option-tree)
+* [rilwis/meta-box](https://github.com/rilwis/meta-box)
+
+clone it to:
+
+`
+assets/themes/my-theme-2/inc/plugins/
+`
+
+___
+####Then our theme need NPM dependencies for GULP (remember `sudo` if you have not root privilages):
 
 ```
   npm install gulp gulp-util gulp-ruby-sass gulp-autoprefixer gulp-minify-css gulp-jshint gulp-uglify gulp-imagemin gulp-rename gulp-rimraf gulp-concat gulp-notify gulp-cache gulp-plumber gulp-livereload --save-dev
+```
+####And the dependencie package.json should look like:
 
-#And the dependencie package.json
+```
 
-
-  "devDependencies": {
+ "devDependencies": {
     "gulp": "^3.8.6",
     "gulp-autoprefixer": "0.0.8",
     "gulp-cache": "^0.2.0",
@@ -35,9 +52,4 @@
     "gulp-util": "^3.0.0"
   }
 ```
-
-
-
-
-
-
+___
