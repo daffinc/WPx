@@ -1,8 +1,8 @@
 <?php
 // Custom Styles and Effects
-function dreams_login_css(){
-   wp_register_style('dreams_login_css', get_template_directory_uri() . '/inc/plugins/dreams/dashboard/css/dashboard.css');
-   wp_enqueue_style( 'dreams_login_css');
+function dreams_dashboard_css(){
+   wp_register_style('dreams_dashboard', get_template_directory_uri() . '/inc/plugins/dreams/dashboard/css/dashboard.css');
+   wp_enqueue_style( 'dreams_dashboard');
 }
 
 function ot_theme() {
@@ -17,7 +17,7 @@ function ot_theme() {
 }
 
 
-function dreams_login_js() {
+function dreams_dashboard_js() {
   wp_register_script('dashboard-js', get_template_directory_uri() . '/inc/plugins/dreams/dashboard/js/dashboard.js', array('jquery'), '2.0', false);
 
   wp_enqueue_script('dashboard-js');
@@ -29,23 +29,33 @@ function dreams_login_url() {
   return $deSiteURL;
 }
 
+
 function dreams_footer_admin (){
   global $deCDN, $deSiteURL;
   echo "<span id=\"footer-thankyou\">Developed by <a href=\"$deSiteURL\" target=\"_blank\">Dreams Engineering</a></span>\n";
 }
 
-function bones_login_title(){
-  global $deCDN, $deSiteURL;
-  return get_option( 'blogname' );
-}
 
-add_action( 'admin_init', 'dreams_login_css', 99 );
-add_action( 'admin_init', 'gcc_ot_css', 99);
+
+add_action( 'admin_init', 'dreams_dashboard_css', 99 );
+add_action('login_head', 'dreams_dashboard_css', 99);
 add_action( 'admin_init', 'ot_theme', 99);
-add_action( 'admin_init', 'dreams_login_js', 99 );
+add_action( 'admin_head', 'dreams_dashboard_js', 99 );
+add_action( 'login_headerurl', 'dreams_login_url',99);
+add_action('admin_footer_text', 'dreams_footer_admin');
+
+
+/*
+#######
+ function dreams_login_title(){
+   global $deCDN, $deSiteURL;
+   return get_option( 'blogname' );
+ }
+
+add_action( 'admin_init', 'gcc_ot_css', 99);
 add_action( 'admin_head', 'ot_custom_scripts', 99);
-
-
+#######
+*/
 
 
 

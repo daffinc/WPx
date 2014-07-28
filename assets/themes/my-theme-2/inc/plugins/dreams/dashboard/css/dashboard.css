@@ -2,6 +2,8 @@
 
  .login h1 a {
   background-image:url(http://cdn.devstate.de/assets/login.png) no-repeat 0 35px;
+  background-image:none, url(http://cdn.devstate.de/assets/logo-complete.svg);
+
   background-size:320px;
   background-repeat:no-repeat;
   max-width:326px;
@@ -78,7 +80,7 @@
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
 
   .login h1 a{
-    background-image:none, url(http://cdn.devstate.de/assets/logo-complete.svg);
+    background-image:none, url(http://cdn.devstate.de/assets/logo-complete.svg) !important;
 
   }
 }

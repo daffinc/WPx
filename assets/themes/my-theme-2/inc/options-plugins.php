@@ -66,7 +66,7 @@ COMMENTS
 *********************/
 
 // Comment Layout
-function bones_comments( $comment, $args, $depth ) {
+function dreams_comments( $comment, $args, $depth ) {
    $GLOBALS['comment'] = $comment; ?>
   <div id="comment-<?php comment_ID(); ?>" <?php comment_class('cf'); ?>>
     <article  class="cf">
@@ -122,7 +122,7 @@ Inline CSS
 
 
 //Custom Template
-function custom_css() {
+function dreams_custom_css() {
  global $themename, $prefix;
  $customcss  = ot_get_option($prefix.'customcss');
  $background = ot_get_option($prefix.'background');
