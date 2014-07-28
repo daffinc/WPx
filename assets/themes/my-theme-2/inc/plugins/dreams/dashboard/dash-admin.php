@@ -5,6 +5,17 @@ function dreams_dashboard_css(){
    wp_enqueue_style( 'dreams_dashboard');
 }
 
+function dreams_login_css() {
+  $template = get_template_directory_uri();
+  echo "<link rel=\"stylesheet\" type=\"text/css\" href=\" {$template}/inc/plugins/dreams/dashboard/css/dashboard.css\" />";
+  echo "<style>
+  html {
+    background:none;
+  }
+  </style>";
+}
+
+
 function ot_theme() {
 
   wp_register_style('gcc_ot_admin_styles', get_template_directory_uri(). '/inc/plugins/dreams/dashboard/ot/admin-styles.css');
@@ -38,7 +49,7 @@ function dreams_footer_admin (){
 
 
 add_action( 'admin_init', 'dreams_dashboard_css', 99 );
-add_action('login_head', 'dreams_dashboard_css', 99);
+add_action('login_head', 'dreams_login_css');
 add_action( 'admin_init', 'ot_theme', 99);
 add_action( 'admin_head', 'dreams_dashboard_js', 99 );
 add_action( 'login_headerurl', 'dreams_login_url',99);

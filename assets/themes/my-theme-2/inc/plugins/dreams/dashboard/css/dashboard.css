@@ -1,9 +1,19 @@
- #login{ padding:0 !important;}
+ #login{ padding:0 !important;
+ }
 
- .login h1 a {
-  background-image:url(http://cdn.devstate.de/assets/login.png) no-repeat 0 35px;
-  background-image:none, url(http://cdn.devstate.de/assets/logo-complete.svg);
+ body.login{
+  background: #00649D;
+}
 
+.login #login_error:before {
+  content: "oops, something went wrong, please chek it, plese contact: webmaster@devstate.de";
+  font-size: 12px;
+}
+
+.login h1 a {
+  background:url(http://cdn.devstate.de/assets/login-back.png) no-repeat 0 35px;
+  /*background-image:none, url(http://cdn.devstate.de/assets/logo-complete-back.svg);*/
+  height: 110px;
   background-size:320px;
   background-repeat:no-repeat;
   max-width:326px;
@@ -21,6 +31,8 @@
   text-align: left;
 }
 
+
+
 .login #backtoblog {
   font-size: 13px;
   padding: 0;
@@ -28,6 +40,29 @@
   float: right;
   display: inline-block;
   margin: 24px 0 0;
+}
+
+.login form {
+  margin-left:auto;
+  margin-right:auto;
+  padding:30px;
+  border: 1px solid #0085AE;
+  background-clip: padding-box;
+  background: rgba(255, 255, 255, 0.9);
+  overflow: hidden;
+}
+
+.login label {
+  color: #333;
+  line-height: 26px;
+}
+
+.login #nav a, .login #backtoblog a{
+  text-decoration: none;
+  color: #DDD;
+  display: inline-block;
+  float: left;
+  font-size: 0.9em;
 }
 
 #setting_den_slider,
@@ -76,11 +111,3 @@
 }
 
 
-
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-
-  .login h1 a{
-    background-image:none, url(http://cdn.devstate.de/assets/logo-complete.svg) !important;
-
-  }
-}
